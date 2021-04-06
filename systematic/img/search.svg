@@ -1,0 +1,20 @@
+<svg id="Search_Form" data-name="Search Form" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ba2e1f;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Ellipse" class="cls-1" d="M955,26a9,9,0,1,1,9,9A9,9,0,0,1,955,26Z" transform="translate(-955 -17)"/>
+  <path id="Rectangle" class="cls-2" d="M965,27.8l1.193-.8L970,30.206,967.581,31Z" transform="translate(-955 -17)"/>
+  <path id="Composite_Path" data-name="Composite Path" class="cls-2" d="M960,25a3,3,0,1,1,3,3A3,3,0,0,1,960,25Zm-1,0a4,4,0,1,0,4-4A4,4,0,0,0,959,25Z" transform="translate(-955 -17)"/>
+</svg>

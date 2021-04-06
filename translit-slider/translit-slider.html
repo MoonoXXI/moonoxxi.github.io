@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Translit Slider</title>
+</head>
+<body>
+    <a href="../index.html" style="
+        padding: 5px; 
+        font-size: 12px;
+        font-family: Georgia, sans-serif;
+        color: aliceblue; 
+        background-color: lightslategray; 
+        border: 1px solid aliceblue; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        z-index: 1">на выход</a>
+    
+    <div class="page" style="width: 300px; margin: 0 auto">
+        <div class="content"></div>
+        <div class="nav" style="text-align: center">
+            <button class="nav__btn left"><<</button>
+            <button class="nav__btn right">>></button>
+        </div>
+        <div class="lang" style="margin: 5px; text-align: center">
+            <button class="lang__btn lang__btn--orig">Транслит</button>
+            <button class="lang__btn lang__btn--mod" hidden>Translıt</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

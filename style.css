@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 25px;
+
+    color: aliceblue;
+
+    background-color: lightslategray;
+}
+
+.page {
+    max-width: 400px;
+    margin: 0 auto;
+
+    text-align: end;
+}
+
+.author {
+    margin: 10px 0 50px;
+    
+    font-size: 35px;
+    line-height: .8;
+}
+
+.list {
+    padding: 0;
+}
+
+.list__item {
+    margin: 35px 0;
+
+    list-style: none;
+}
+
+.list__item__link {
+    padding: 10px;
+
+    font-size: 50px;
+    text-decoration: none;
+
+    border: 1px solid aliceblue;
+}
+
+.list__item__link:hover {
+    text-decoration: underline;
+}
+
+.list__item__link:visited {
+    color: inherit;
+}
+
+.list__item__text {
+    margin: 15px 0;
+}
+
+.reference__link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.reference__link:hover {
+    text-decoration: underline;
+}
+
+.reference__link:visited {
+    color: inherit;
+}
