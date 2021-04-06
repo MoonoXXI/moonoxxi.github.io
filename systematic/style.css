@@ -11,6 +11,19 @@ body {
     font-size: 12px;
 }
 
+.exit {
+    padding: 5px; 
+    font-size: 12px;
+    font-family: Georgia, sans-serif;
+    color: aliceblue; 
+    background-color: lightslategray; 
+    border: 1px solid aliceblue; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1;
+}
+
 .top-container {
     display: flex;
     width: 100%;

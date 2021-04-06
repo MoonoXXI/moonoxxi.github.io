@@ -17,6 +17,19 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.exit {
+    padding: 5px; 
+    font-size: 12px;
+    font-family: Georgia, sans-serif;
+    color: aliceblue; 
+    background-color: lightslategray; 
+    border: 1px solid aliceblue; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1;
+}
+
 .first {
     display: table;
     width: 900px;
