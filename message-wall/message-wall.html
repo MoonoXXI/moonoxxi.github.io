@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Message Wall</title>
+</head>
+<body>
+    <a class="exit" href="../index.html">на выход</a>
+
+    <div class="wall">
+        <form class="wall__form" action="#">
+            <input class="wall__input" required placeholder="Представьтесь" name="name" type="text" maxlength="20">
+            <textarea class="wall__text" required placeholder="Напишите что-нибудь" name="text" maxlength="140"></textarea>
+            <button class="wall__button">Нажмите</button>
+        </form>
+
+        <div class="wall__posts"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
